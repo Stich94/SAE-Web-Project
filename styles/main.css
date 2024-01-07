@@ -1,0 +1,9 @@
+:root {
+    --horizontal-content-padding: 9.375rem
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
