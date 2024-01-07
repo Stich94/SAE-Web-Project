@@ -1,9 +1,25 @@
 :root {
-    --horizontal-content-padding: 9.375rem
+    --horizontal-content-padding: 0 9.375rem;
+    --primary-color: #1E213A;
+    --urbanist-font: 'Urbanist', sans-serif;
+    --roboto-font: 'Roboto', sans-serif;
+
+    --base-font-size: 16px;
+    --sm-font-weight: 600; /* 600 is typically considered semibold */
 }
 
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box
+    box-sizing: border-box;
+    /*font-family: var(--roboto-font);*/
+}
+
+.text-md-sb {
+    /* Text md/semibold */
+    font-family: var(--roboto-font);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 150% */
 }

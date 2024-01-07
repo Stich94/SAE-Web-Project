@@ -1,0 +1,28 @@
+
+.navbar {
+    height: 80px;
+    width: 100%;
+    padding: var(--horizontal-content-padding);
+    display: flex;
+    align-items: center; /* this aligns the items vertically */
+    justify-content: space-between;
+    background-color: var(--primary-color);
+    color: white;
+
+    ul {
+        display: flex;
+        list-style: none;
+        gap: 32px;
+
+        .link {
+            /*font: var(--sm-font-weight) var(--base-font-size) var(--roboto-font);*/
+            text-decoration: none;
+            color: #fff;
+            /*border-bottom: 1px solid white;*/
+        }
+    }
+}
+
+.link:hover {
+    border-bottom: 1px solid #64ffda;
+}
