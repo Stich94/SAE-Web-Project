@@ -23,6 +23,7 @@
     }
 }
 
+/* ---- Hover ---- */
 .link:hover {
     border-bottom: 1px solid #64ffda;
 }

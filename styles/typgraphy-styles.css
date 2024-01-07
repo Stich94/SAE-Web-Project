@@ -1,0 +1,20 @@
+
+
+.text-md-sb {
+    /* Text md/semibold */
+    font-family: var(--roboto-font);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 150% */
+}
+
+.display-lg-b {
+    /* Display lg/regular */
+    font-family: var(--urbanist-font);
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px; /* 125% */
+    letter-spacing: -0.96px;
+}

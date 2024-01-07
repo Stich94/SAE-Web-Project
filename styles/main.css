@@ -15,11 +15,20 @@
     /*font-family: var(--roboto-font);*/
 }
 
-.text-md-sb {
-    /* Text md/semibold */
-    font-family: var(--roboto-font);
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 24px; /* 150% */
+
+
+/* Hero Section */
+.hero-container {
+    height: 100vh; /* Set the height of the container */
+    background-image: url('/images/Tesla/Tesla-Model-Y-Front.webp'); /* Path to your image */
+    background-size: cover; /* Ensures the image covers the whole area */
+    background-position: center; /* Aligns the image at the center */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
+.hero__content {
+    padding: var(--horizontal-content-padding);
+    padding-top: 96px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
 }
