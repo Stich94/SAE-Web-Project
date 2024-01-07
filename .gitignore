@@ -1,0 +1,16 @@
+# .gitignore for a HTML project
+
+# Dependency directories (uncomment this line if needed)
+#node_modules/
+
+# Logs
+*.log
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.idea
+.vscode
+*.swp
