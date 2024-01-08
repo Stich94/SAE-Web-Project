@@ -1,20 +1,441 @@
 
+/* ------------------- XS Text ------------------- */
+.text-xs-r {
+    /* Text xs/regular */
+    font-family: var(--roboto-font);
+    font-size: 0.75rem; /* 12px */
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 150% */
+}
+
+.text-xs-md {
+    /* Text xs/medium */
+    font-family: var(--roboto-font);
+    font-size: 0.75rem; /* 12px */
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px; /* 150% */
+}
+
+.text-xs-sb {
+    /* Text xs/semibold */
+    font-family: var(--roboto-font);
+    font-size: 0.75rem; /* 12px */
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px; /* 150% */
+}
+
+.text-xs-b {
+    /* Text xs/bold */
+    font-family: var(--roboto-font);
+    font-size: 0.75rem; /* 12px */
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px; /* 150% */
+}
+
+/* ------------------- SM Text ------------------- */
+.text-sm-r {
+    /* Text sm/regular */
+    font-family: var(--roboto-font);
+    font-size: 0.875rem; /* 14px */
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+}
+
+.text-sm-md{
+    /* Text sm/medium */
+    font-family: var(--roboto-font);
+    font-size: 0.875rem; /* 14px */
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 142.857% */
+}
+
+.text-sm-sb {
+    /* Text sm/semibold */
+    font-family: var(--roboto-font);
+    font-size: 0.875rem; /* 14px */
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 142.857% */
+}
+
+.text-sm-b {
+    /* Text sm/bold */
+    font-family: var(--roboto-font);
+    font-size: 0.875rem; /* 14px */
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 142.857% */
+}
+
+/* ----------- MD Text -------------- */
+.text-md-r {
+    /* Text md/regular */
+    font-family: var(--roboto-font);
+    font-size: 1rem; /* 16px */
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+
+
+.text-md-md {
+    /* Text md/medium */
+    font-family: var(--roboto-font);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+}
+
 
 .text-md-sb {
     /* Text md/semibold */
     font-family: var(--roboto-font);
-    font-size: 16px;
+    font-size: 1rem; /* 16px */
     font-style: normal;
     font-weight: 600;
     line-height: 24px; /* 150% */
 }
 
-.display-lg-b {
+
+.text-md-sb {
+    /* Text md/bold */
+    font-family: var(--roboto-font);
+    font-size: 1rem; /* 16px */
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 150% */
+}
+
+
+/* ------------------- LG Text ------------------- */
+.text-lg-r {
+    /* Text lg/regular */
+    font-family: var(--roboto-font);
+    font-size: 1.125rem; /* 18px */
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 155.556% */
+}
+
+.text-lg-md {
+    /* Text lg/medium */
+    font-family: var(--roboto-font);
+    font-size: 1.125rem; /* 18px */
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 155.556% */
+}
+
+.text-lg-sb {
+    /* Text lg/semibold */
+    font-family: var(--roboto-font);
+    font-size: 1.125rem; /* 18px */
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; /* 155.556% */
+}
+
+.text-lg-b {
+    /* Text lg/bold */
+    font-family: var(--roboto-font);
+    font-size: 1.125rem; /* 18px */
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 155.556% */
+}
+
+/* ------------------- XL Text ------------------- */
+.text-xl-r {
+    /* Text xl/regular */
+    font-family: var(--roboto-font);
+    font-size: 1.25rem; /* 20px */
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+}
+
+.text-xl-md {
+    /* Text xl/medium */
+    font-family: var(--roboto-font);
+    font-size: 1.25rem; /* 20px */
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px; /* 150% */
+}
+
+.text-xl-sb {
+    /* Text xl/semibold */
+    font-family: var(--roboto-font);
+    font-size: 1.25rem; /* 20px */
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px; /* 150% */
+}
+
+.text-xl-b {
+    /* Text xl/bold */
+    font-family: var(--roboto-font);
+    font-size: 1.25rem; /* 20px */
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 150% */
+}
+
+
+/* ------------------------ DISPLAY Fonts ------------------------ */
+/* ------------------- XS Display ------------------- */
+.display-xs-r {
+    /* Display xs/regular */
+    font-family: var(--urbanist-font);
+    font-size: 1.5rem; /* 24px */
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 133.333% */
+    letter-spacing: -0.48px;
+}
+
+.display-xs-md {
+    /* Display xs/medium */
+    font-family: var(--urbanist-font);
+    font-size: 1.5rem; /* 24px */
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; /* 133.333% */
+    letter-spacing: -0.48px;
+}
+
+.display-xs-sb {
+    /* Display xs/semibold */
+    font-family: var(--urbanist-font);
+    font-size: 1.5rem; /* 24px */
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px; /* 133.333% */
+    letter-spacing: -0.48px;
+}
+
+.display-xs-b {
+    /* Display xs/bold */
+    font-family: var(--urbanist-font);
+    font-size: 1.5rem; /* 24px */
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 133.333% */
+    letter-spacing: -0.48px;
+}
+
+/* ------------------- SM Display ------------------- */
+.display-sm-r {
+    /* Display sm/regular */
+    font-family: var(--urbanist-font);
+    font-size: 1.875rem; /* 30px */
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px; /* 120% */
+    letter-spacing: -0.6px;
+}
+
+.display-sm-md {
+    /* Display sm/medium */
+    font-family: var(--urbanist-font);
+    font-size: 1.875rem; /* 30px */
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px; /* 120% */
+    letter-spacing: -0.6px;
+}
+
+.display-sm-sb {
+    /* Display sm/semibold */
+    font-family: var(--urbanist-font);
+    font-size: 1.875rem; /* 30px */
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px; /* 120% */
+    letter-spacing: -0.6px;
+}
+
+.display-sm-b {
+    /* Display sm/bold */
+    font-family: var(--urbanist-font);
+    font-size: 1.875rem; /* 30px */
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px; /* 120% */
+    letter-spacing: -0.6px;
+}
+
+
+
+/* ------------------- MD Display ------------------- */
+.display-md-r {
+    /* Display md/regular */
+    font-family: var(--urbanist-font);
+    font-size: 2.25rem; /* 36px */
+    font-style: normal;
+    font-weight: 400;
+    line-height: 44px; /* 122.222% */
+    letter-spacing: -0.72px;
+}
+
+.display-md-md {
+    /* Display md/medium */
+    font-family: var(--urbanist-font);
+    font-size: 2.25rem; /* 36px */
+    font-style: normal;
+    font-weight: 500;
+    line-height: 44px; /* 122.222% */
+    letter-spacing: -0.72px;
+}
+
+.display-md-sb {
+    /* Display md/semibold */
+    font-family: var(--urbanist-font);
+    font-size: 2.25rem; /* 36px */
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px; /* 122.222% */
+    letter-spacing: -0.72px;
+}
+
+.display-md-b {
+    /* Display md/regular */
+    font-family: var(--urbanist-font);
+    font-size: 2.25rem; /* 36px */
+    font-style: normal;
+    font-weight: 700;
+    line-height: 44px; /* 122.222% */
+    letter-spacing: -0.72px;
+}
+
+/* ----------- LG Display ------------- */
+.display-lg-r {
     /* Display lg/regular */
     font-family: var(--urbanist-font);
-    font-size: 48px;
+    font-size: 3rem; /* 48px */
     font-style: normal;
     font-weight: 400;
     line-height: 60px; /* 125% */
     letter-spacing: -0.96px;
+}
+
+.display-lg-md {
+    /* Display lg/medium */
+    font-family: var(--urbanist-font);
+    font-size: 3rem; /* 48px */
+    font-style: normal;
+    font-weight: 500;
+    line-height: 60px; /* 125% */
+    letter-spacing: -0.96px;
+}
+
+.display-lg-sb {
+    /* Display lg/semibold */
+    font-family: var(--urbanist-font);
+    font-size: 3rem; /* 48px */
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px; /* 125% */
+    letter-spacing: -0.96px;
+}
+
+.display-lg-b {
+    /* Display lg/bold */
+    font-family: var(--urbanist-font);
+    font-size: 3rem; /* 48px */
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 125% */
+    letter-spacing: -0.96px;
+}
+
+
+/* ----------- XL Display ----------- */
+.display-xl-r {
+
+    /* Display xl/regular */
+    font-family: var(--urbanist-font);
+    font-size: 3.8125rem; /* 61px */
+    font-style: normal;
+    font-weight: 400;
+    line-height: 88px; /* 144.262% */
+    letter-spacing: -1.22px;
+}
+
+.display-xl-md {
+    /* Display xl/medium */
+    font-family: var(--urbanist-font);
+    font-size: 3.8125rem; /* 61px */
+    font-style: normal;
+    font-weight: 500;
+    line-height: 88px; /* 144.262% */
+    letter-spacing: -1.22px;
+}
+
+.display-xl-sb {
+    /* Display xl/semibold */
+    font-family: var(--urbanist-font);
+    font-size: 3.8125rem; /* 61px */
+    font-style: normal;
+    font-weight: 600;
+    line-height: 88px; /* 144.262% */
+    letter-spacing: -1.22px;
+}
+
+.display-xl-b {
+    /* Display xl/bold */
+    font-family: var(--urbanist-font);
+    font-size: 3.8125rem; /* 61px */
+    font-style: normal;
+    font-weight: 700;
+    line-height: 88px; /* 144.262% */
+    letter-spacing: -1.22px;
+}
+
+/* ------------------- 2XL Display ------------------- */
+.display-2xl-r {
+    /* Display 2xl/regular */
+    font-family: var(--urbanist-font);
+    font-size: 4.5rem; /* 72px */
+    font-style: normal;
+    font-weight: 400;
+    line-height: 88px; /* 122.222% */
+    letter-spacing: -1.44px;
+}
+
+.display-2xl-md {
+    /* Display 2xl/medium */
+    font-family: var(--urbanist-font);
+    font-size: 4.5rem; /* 72px */
+    font-style: normal;
+    font-weight: 500;
+    line-height: 88px; /* 122.222% */
+    letter-spacing: -1.44px;
+}
+
+.display-2xl-sb {
+    /* Display 2xl/semibold */
+    font-family: var(--urbanist-font);
+    font-size: 4.5rem; /* 72px */
+    font-style: normal;
+    font-weight: 600;
+    line-height: 88px; /* 122.222% */
+    letter-spacing: -1.44px;
+}
+
+.display-2xl-b {
+    /* Display 2xl/bold */
+    font-family: var(--urbanist-font);
+    font-size: 4.5rem; /* 72px */
+    font-style: normal;
+    font-weight: 700;
+    line-height: 88px; /* 122.222% */
+    letter-spacing: -1.44px;
 }
