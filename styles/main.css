@@ -3,15 +3,14 @@
     --primary-color: #1E213A;
     --urbanist-font: 'Urbanist', sans-serif;
     --roboto-font: 'Roboto', sans-serif;
-
-    --base-font-size: 16px;
-    --sm-font-weight: 600; /* 600 is typically considered semibold */
+    --base-font-size: 1rem; /* 16px */
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: var(--base-font-size);
     /*font-family: var(--roboto-font);*/
 }
 
@@ -28,7 +27,7 @@
 
 .hero__content {
     padding: var(--horizontal-content-padding);
-    padding-top: 96px;
+    padding-top: 224px;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    /*background-color: rgba(0, 0, 0, 0.5);*/
 }

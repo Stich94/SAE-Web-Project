@@ -1,12 +1,14 @@
 
 .navbar {
+    /*position: fixed;*/
+    position: absolute;
     height: 80px;
     width: 100%;
     padding: var(--horizontal-content-padding);
     display: flex;
     align-items: center; /* this aligns the items vertically */
     justify-content: space-between;
-    background-color: var(--primary-color);
+    background-color: rgba(0, 0, 0, 0.5);
     color: white;
 
     ul {
