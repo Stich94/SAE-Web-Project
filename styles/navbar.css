@@ -1,7 +1,9 @@
 
 .navbar {
-    /*position: fixed;*/
-    position: absolute;
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    /*position: absolute;*/
     height: 80px;
     width: 100%;
     padding: var(--horizontal-content-padding);
