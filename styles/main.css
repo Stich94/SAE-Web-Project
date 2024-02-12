@@ -53,5 +53,10 @@
 
 .text-content {
     color: white;
+    padding: 48px;
+}
+
+.cta-button-container {
+    padding: 0 12px;
 }
 

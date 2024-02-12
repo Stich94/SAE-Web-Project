@@ -1,3 +1,11 @@
+/* Desktop Container */
+.dsk-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 96px 150px;
+
+}
+
 /* Button General */
 .btn-md {
     padding: 12px 24px;
@@ -36,4 +44,14 @@
     background-color: var(--secondary-color);
     color: var(--Color-gray-900);
     border: 1px solid var(--Color-gray-900);
+}
+
+
+/* Car Brands Container */
+.brand-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 96px 150px;
 }
