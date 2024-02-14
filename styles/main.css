@@ -26,9 +26,12 @@
     /*font-family: var(--roboto-font);*/
 }
 
-body {
-    margin: 0 auto;
-}
+/*html, body {*/
+/*    margin: 0;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*}*/
 
 .wrapper-desktop {
     /* contains content restrictions - padding  */
@@ -254,7 +257,7 @@ body {
             .x-scroll-container {
                 display: flex;
                 /*padding: 20px 0;*/
-                padding: 20px 0px 20px 32px;
+                padding: 20px 0 20px 32px;
                 overflow-x: scroll;
                 overflow-y: hidden;
                 white-space: nowrap;
@@ -317,13 +320,13 @@ body {
         /*padding-bottom: 20px;*/
 
         width: calc(32px + 8px * 2); /* Icon width + padding */
-        height: calc(32px + 8px * 2); /* Icon height + padding */
-        padding: 8px; /* Padding around the icon */
+        height: calc(32px + 8px * 2);
+        padding: 8px;
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: var(--Color-gray-50); /* Replace with your desired background color */
-        border-radius: 50%; /* Fully rounded corners for a circular shape */
+        background-color: var(--Color-gray-50);
+        border-radius: 50%;
         box-sizing: border-box;
     }
 
@@ -335,5 +338,63 @@ body {
         color: var(--Color-gray-400);
     }
 }
+
+/* ----------------------- Service Explanation Section */
+.service-explanation-section {
+
+    .flex-container {
+        row-gap: 64px;
+        flex-direction: column;
+
+    }
+
+    .row {
+        display: flex;
+        flex-direction: row;
+        align-self: stretch;
+        height: 256px;
+    }
+
+    .service-container {
+        /*width: 100%;*/
+        display: flex;
+        justify-content: center;
+        /*gap: 130px;*/
+        column-gap: 120px;
+        row-gap: 130px;
+        /*height: 256px;*/
+
+    }
+
+
+    .service-img {
+        /*width: 455px;*/
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        align-self: stretch;
+        border-radius: 8px;
+    }
+
+    .text-content {
+        /*width: 50%;*/
+        align-self: center;
+        text-align: left;
+
+        h4 {
+            color: var(--Color-gray-900);
+            padding-bottom: 16px;
+        }
+
+        p {
+            padding: 0;
+            color: var(--Color-gray-400);
+        }
+        /*background-color: red;*/
+    }
+
+
+}
+
 
 
