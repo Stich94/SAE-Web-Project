@@ -172,6 +172,12 @@ body {
         padding-bottom: 64px;
     }
 
+    .flex-container {
+        column-gap: 32px;
+        row-gap: 32px;
+        /*background-color: red;*/
+    }
+
     .cta-card {
         display: flex;
         width: 262px;
@@ -276,8 +282,9 @@ body {
     .flex-container {
         align-items: flex-start; /* to align all cards on top of container */
         flex-wrap: wrap;
+        justify-content: space-evenly;
         column-gap: 32px;
-        row-gap: 40px;
+        row-gap: 64px;
     }
 
 
@@ -322,6 +329,10 @@ body {
 
     .service-icon {
         display: block;
+    }
+
+    p {
+        color: var(--Color-gray-400);
     }
 }
 
