@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="styles/navbar.css">
     <link rel="stylesheet" href="styles/typgraphy-styles.css">
     <link rel="stylesheet" href="styles/design-elements.css">
+    <link rel="stylesheet" href="styles/spacing-modules.css">
 </head>
 <body>
 <header>
@@ -80,7 +81,7 @@
     <!-- // ------------------------ CTA Section 1 ------------------------ // -->
     <section class="cta">
         <div class="wrapper-desktop">
-            <div class="headline">
+            <div class="heading has-support-text">
                 <h3 class="text-md-sb">Explore</h3>
                 <h2 class="display-md-b">Services</h2>
             </div>
@@ -184,7 +185,63 @@
     </section>
     <!-- // ------------------------ Services Section ------------------------ // -->
     <section class="services-in-depth">
-        <div class="wrapper-desktop"></div>
+        <div class="wrapper-desktop">
+            <div class="heading">
+                <h3 class="text-md-sb">Explore</h3>
+                <h2 class="display-md-b">Services</h2>
+            </div>
+            <div class="flex-container">
+                <!-- // ------------------------ Card 1 ------------------------ // -->
+                <article>
+                    <div class="service-card">
+                        <div class="flex-c">
+                            <div class="icon-container">
+                                <svg class="service-icon" xmlns="http://www.w3.org/2000/svg" width="25" height="24"
+                                     viewBox="0 0 25 24"
+                                     fill="none">
+                                    <path d="M22.5 13V15H18.82C19.25 14.09 19.5 13.08 19.5 12C19.5 8.14 16.36 5 12.5 5H2.5V3H12.5C14.8869 3 17.1761 3.94821 18.864 5.63604C20.5518 7.32387 21.5 9.61305 21.5 12C21.5 12.34 21.47 12.67 21.44 13H22.5ZM12.5 19C8.64 19 5.5 15.86 5.5 12C5.5 10.93 5.75 9.91 6.19 9H2.5V11H3.56C3.53 11.33 3.5 11.66 3.5 12C3.5 14.3869 4.44821 16.6761 6.13604 18.364C7.82387 20.0518 10.1131 21 12.5 21H22.5V19H12.5ZM17.36 12.2C16.43 12.94 15.22 12.47 14.5 12.05V12C17.29 10.31 15.89 7.89 15.89 7.89C15.89 7.89 14.83 6.04 15.11 7.89C15.28 9.07 14.26 9.88 13.54 10.3L13.5 10.28C13.43 7 10.63 7 10.63 7C10.63 7 8.5 7 10.24 7.69C11.35 8.13 11.54 9.42 11.55 10.25L11.5 10.28C8.64 8.7 7.24 11.12 7.24 11.12C7.24 11.12 6.17 12.97 7.64 11.8C8.57 11.07 9.78 11.54 10.5 11.95V12C7.71 13.7 9.11 16.12 9.11 16.12C9.11 16.12 10.17 17.97 9.9 16.11C9.72 14.94 10.75 14.13 11.47 13.7L11.5 13.73C11.57 17 14.37 17 14.37 17C14.37 17 16.5 17 14.76 16.31C13.65 15.87 13.46 14.58 13.45 13.75L13.5 13.73C16.36 15.31 17.76 12.88 17.76 12.88C17.76 12.88 18.83 11.04 17.36 12.2Z" fill="#6D6D6D"/>
+                                </svg>
+                            </div>
+                            <h4 class="text-xl-sb pb-8">Tuning</h4>
+                            <p class="text-md-md">Ob Motor, Chassis oder Interieur, unser Team ist bereit für Ihre nächste
+                                Herausforderung.</p>
+                        </div>
+                    </div>
+                </article>
+                <!-- // ------------------------ Card 2 ------------------------ // -->
+                <article>
+                    <div class="service-card">
+                        <div class="flex-c">
+                            <div class="icon-container">
+                                <svg class="service-icon" xmlns="http://www.w3.org/2000/svg" width="25" height="24"
+                                     viewBox="0 0 25 24"
+                                      fill="none">
+                                    <path d="M13.16 13.67C12.82 14 12.43 14.29 12 14.5V21L9.99999 23L7.99999 21L9.99999 19.29L8.49999 18L9.99999 16.71L7.99999 15V14.5C7.24808 14.1374 6.61423 13.5693 6.1718 12.8614C5.72937 12.1535 5.49645 11.3348 5.49999 10.5C5.49999 8 7.49999 6 9.99999 6H10.11C10.09 6.07 10.04 6.12 9.99999 6.18C9.72999 6.79 9.57999 7.43 9.52999 8.08C9.1922 8.1919 8.90528 8.4204 8.7206 8.72458C8.53593 9.02875 8.46556 9.38873 8.52211 9.74005C8.57866 10.0914 8.75843 10.4111 9.02922 10.642C9.30002 10.8728 9.64415 10.9997 9.99999 11H10.1C10.74 12.25 11.84 13.2 13.16 13.67ZM16.5 6C16.5 5.37 16.4 4.75 16.22 4.18C17.56 4.56 18.71 5.55 19.23 6.96C19.83 8.62 19.39 10.39 18.25 11.59L20.5 17.68L19.28 20.25L16.72 19.05L18 16.76L16.16 16.06L17.13 14.34L14.66 13.41L14.5 12.95C13.6687 12.8613 12.8787 12.5418 12.2196 12.0275C11.5604 11.5132 11.0583 10.8248 10.77 10.04C10.3639 8.91802 10.4189 7.68082 10.9231 6.59935C11.4273 5.51788 12.3395 4.68028 13.46 4.27C13.64 4.21 13.83 4.17 14 4.13C13.6675 3.48857 13.1653 2.95074 12.5481 2.57515C11.9309 2.19955 11.2225 2.0006 10.5 2C8.28999 2 6.49999 3.79 6.49999 6C6.49999 6.09 6.49999 6.17 6.52999 6.26C6.19999 6.53 5.89999 6.82 5.64999 7.15C5.55999 6.78 5.49999 6.4 5.49999 6C5.49999 3.24 7.73999 1 10.5 1C13.26 1 15.5 3.24 15.5 6C15.5 7.16 15.1 8.21 14.44 9.06C16.58 8.88 16.5 6 16.5 6ZM13.31 8.1C13.37 8.27 13.46 8.41 13.56 8.54C14.12 7.88 14.47 7.04 14.5 6.11C14.39 6.13 14.3 6.15 14.2 6.18C13.42 6.47 13 7.33 13.31 8.1Z" fill="#6D6D6D"/>
+                                </svg>
+                            </div>
+                            <h4 class="text-xl-sb pb-8">Unabhängige Beratung</h4>
+                            <p class="text-md-md">Unsere Berater helfen Ihnen dabei, Ihr nächstes Traumauto zu finden.</p>
+                        </div>
+                    </div>
+                </article>
+                <!-- // ------------------------ Card 3 ------------------------ // -->
+                <article>
+                    <div class="service-card">
+                        <div class="flex-c">
+                            <div class="icon-container">
+                                <svg class="service-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                      fill="none">
+                                    <path d="M16.75 21.16L14 18.16L15.16 17L16.75 18.59L20.34 15L21.5 16.41L16.75 21.16ZM12 18C12 14.69 14.69 12 18 12V5.33C18 4.6 17.4 4 16.67 4H15V2H9V4H7.33C6.6 4 6 4.6 6 5.33V20.67C6 21.4 6.6 22 7.33 22H13.54C12.5459 20.9053 11.9967 19.4787 12 18Z" fill="#6D6D6D"/>
+                                </svg>
+                            </div>
+                            <h4 class="text-xl-sb pb-8">E-Mobility</h4>
+                            <p class="text-md-md">Wir bieten E-Autos inkl.
+                                Ladestationenaufstellung an.</p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
     </section>
 </main>
 </body>

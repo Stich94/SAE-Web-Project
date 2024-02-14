@@ -1,10 +1,11 @@
-/* Desktop Container */
-.dsk-container {
-    max-width: 1440px;
-    margin: 0 auto;
-    padding: 96px 150px;
+/*
+Contains styling for:
+- buttons
+- Showroom Cards
+- Service Cards
+- Spacing Headline Section
 
-}
+ */
 
 /* Button General */
 .btn-md {
@@ -115,4 +116,52 @@
             fill: var(--Color-gray-900);
         }
     }
+}
+
+/* ----------------- Section Headline Styling ------------------- */
+.heading {
+    /*padding-bottom: 32px;*/
+    text-align: center;
+
+    h3 {
+        color: var(--Color-gray-400);
+        padding-bottom: 12px;
+    }
+
+    h2 {
+        color: var(--Color-gray-900);
+        /*padding-bottom: 64px;*/
+    }
+
+
+
+    /*h2 + p {*/
+    /*    padding-top: 32px;*/
+    /*}*/
+
+}
+
+.heading h2 {
+    padding-bottom: 64px;
+}
+
+.heading.has-support-text + .support-text {
+    padding-top: 32px;
+}
+
+/* When .heading has the .has-support class, reduce the padding-bottom of h2 to 0 */
+.heading.has-support-text h2 {
+    padding-bottom: 0; /* No space below h2 if support text is present */
+}
+
+
+/*.heading + .support-text {*/
+/*    !*background-color: red;*!*/
+/*    padding-top: 32px;*/
+/*}*/
+
+.support-text {
+    color: var(--Color-gray-400);
+    text-align: center;
+    /*padding-bottom: 64px;*/
 }
