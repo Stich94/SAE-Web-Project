@@ -8,10 +8,11 @@
     width: 100%;
     padding: var(--horizontal-content-padding);
     display: flex;
-    align-items: center; /* this aligns the items vertically */
+    align-items: center;
     justify-content: space-between;
-    background-color: rgba(0, 0, 0, 0.5);
+    /*background-color: rgba(0, 0, 0, 0.5);*/
     color: white;
+    transition: transform 0.5s ease, background-color 0.5s ease;
 
     ul {
         display: flex;
@@ -22,12 +23,19 @@
             /*font: var(--sm-font-weight) var(--base-font-size) var(--roboto-font);*/
             text-decoration: none;
             color: #fff;
+            padding-bottom: 4px;
             /*border-bottom: 1px solid white;*/
         }
     }
 }
 
+.scroll-style {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
 /* ---- Hover ---- */
 .link:hover {
-    border-bottom: 1px solid #64ffda;
+    color: var(--primary-color);
+    border-bottom: 1px solid var(--primary-color);
 }
+
