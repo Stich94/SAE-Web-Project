@@ -20,6 +20,8 @@ Contains styling for:
 /* ----- Primary ----- */
 .primary {
     outline: none;
+    /*font: var(--roboto-font);*/
+    text-decoration: none;
     background-color: var(--primary-color);
     color: #fff;
     border-radius: 8px;
