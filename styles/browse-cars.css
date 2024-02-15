@@ -1,4 +1,119 @@
 
 .hero-container {
-    height: 70vh;
+    height: 80vh;
+
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.70) 0%, rgba(0, 0, 0, 0.49) 100%), url("/images/Optimized-Images/Audi-RS7-Side-1.webp") no-repeat center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
 }
+
+.hero-container .flex-container > svg path {
+    fill: var(--Color-gray-100);
+}
+
+.hero-container .hero__content {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 96px;
+}
+
+.hero__content p {
+    padding-bottom: 64px;
+    color: var(--Color-gray-50);
+
+}
+
+/* Car Card */
+
+
+.sales__card {
+    display: inline-block;
+    width: 258px;
+    height: 286px;
+    flex: 0 0 auto;
+    margin-right: 32px;
+    text-decoration: none;
+    border: 1px solid var(--Color-gray-50);
+    border-radius: 8px;
+    overflow: hidden;
+    /*background: var(--cta-card-gradient), url("/images/Mechanic/Mechanic-1.webp") no-repeat center center;*/
+    /* DropShadow */
+    box-shadow: 0px 4px 25px 0px rgba(57, 47, 47, 0.10);
+    transition: transform 0.5s ease, border-color 0.5s ease;
+}
+
+
+.sales__card:hover {
+
+    border-color: var(--primary-color);
+    transform: scale(1.03);
+
+    h5 {
+        color: var(--primary-color);
+    }
+
+    h6 {
+        color: var(--primary-color);
+    }
+
+    .details p {
+        color: var(--primary-color);
+    }
+
+    .brand svg path {
+        fill: var(--primary-color);
+    }
+}
+
+.card--layout {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+    position: relative;
+
+    h5 {
+        padding: 8px 0;
+        color: var(--Color-gray-900);
+    }
+
+    h6 {
+        color: var(--Color-gray-900);
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .brand {
+        width: 100%;
+        padding: 8px 24px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        z-index: 1000;
+        background: linear-gradient(270deg, rgba(255, 255, 255, 0.00) 0%, #FFF 100%);
+
+        svg path {
+            fill: var(--Color-gray-900);
+        }
+    }
+}
+
+.car-card__text {
+    padding: 0 24px;
+}
+
+.car-card__text .details {
+    color: var(--Color-gray-400);
+    padding: 8px 0;
+
+}
+
