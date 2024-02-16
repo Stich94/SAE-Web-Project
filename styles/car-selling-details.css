@@ -17,6 +17,12 @@
 .cta-container {
     background-color: var(--Color-gray-25);
 }
+
+.cta-container .flex-container {
+    gap: 20px;
+    justify-content: center;
+}
+
 .cta-card {
     text-decoration: none;
     padding: 20px 0;
@@ -54,4 +60,61 @@
 
 .cta-card svg path {
     fill: var(--Color-gray-400);
+}
+
+/* ------------ Highlights Section --------------- */
+
+
+.right-text-placement {
+    padding: 96px 150px 96px 32px;
+    /*grid-template-columns: repeat(3, 1fr);*/
+}
+
+.left-text-placement {
+    padding: 96px 32px 96px 150px;
+}
+
+/*.highlight .flex-container {*/
+/*    height: 600px;*/
+/*}*/
+
+.grid-highlight {
+    height: 100%;
+    /*height: auto;*/
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /*grid-template-columns: repeat(3, 1fr);*/
+    grid-template-rows: 600px;
+    /*display: flex;*/
+}
+
+.grid-highlight img {
+    width: 100%;
+    height: 100%;
+    grid-column: span 2;
+    object-fit: cover;
+    overflow: hidden;
+
+}
+
+
+.grid-highlight .text-container {
+    /*padding: 32px 150px 32px 32px;*/
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: flex-start;
+    align-self: center;
+
+    h3 {
+        color: var(--Color-gray-900);
+    }
+
+    p {
+        color: var(--Color-gray-400);
+    }
+}
+
+.grid-highlight .filled {
+
 }
