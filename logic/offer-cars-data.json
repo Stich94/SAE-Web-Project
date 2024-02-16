@@ -1,0 +1,40 @@
+{
+  "cars": [
+    {
+      "price": "69.000€",
+      "model": "Tesla Model S",
+      "gear": "Elektro / Automatik",
+      "power": "1.020PS",
+      "range": "600km Reichweite",
+      "brand": "Tesla",
+      "imagePath": "images/Optimized-Images/Tesla-Model-S-Front-2.webp"
+    },
+    {
+      "price": "45.000€",
+      "model": "Audi A4 Avant",
+      "gear": "Benzin / Automatik",
+      "power": "100kW",
+      "range": "",
+      "brand": "Audi",
+      "imagePath": "images/Audi-Images/Audi-A4-Combi-Front.jpg"
+    },
+    {
+      "price": "30.000€",
+      "model": "Audi A3",
+      "gear": "Benzin / Diesel / Automatik",
+      "power": "110kW",
+      "range": "",
+      "brand": "Audi",
+      "imagePath": "images/Optimized-Images/Audi-A3-Front-1.webp"
+    },
+    {
+      "price": "29.000€",
+      "model": "VW Golf 7",
+      "gear": "Benzin / Diesel / Manuell",
+      "power": "100kW",
+      "range": "",
+      "brand": "Volkswagen",
+      "imagePath": "images/Optimized-Images/VW-Golf-7-Front-1.webp"
+    }
+  ]
+}

@@ -25,22 +25,37 @@
 
 }
 
+/* ------------- Card Container ---------------- */
+/*#cards-container {*/
+/*    padding-top: 64px;*/
+/*    display: flex;*/
+/*    width: 100%;*/
+/*    flex-wrap: wrap;*/
+/*    gap: 32px;*/
+/*}*/
+
+.flex-card-container {
+    padding-top: 64px;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
 /* Car Card */
-
-
 .sales__card {
     display: inline-block;
     width: 258px;
     height: 286px;
     flex: 0 0 auto;
-    margin-right: 32px;
+    /*margin-right: 32px;*/
     text-decoration: none;
     border: 1px solid var(--Color-gray-50);
     border-radius: 8px;
     overflow: hidden;
     /*background: var(--cta-card-gradient), url("/images/Mechanic/Mechanic-1.webp") no-repeat center center;*/
     /* DropShadow */
-    box-shadow: 0px 4px 25px 0px rgba(57, 47, 47, 0.10);
+    box-shadow: 0 4px 25px 0 rgba(57, 47, 47, 0.10);
     transition: transform 0.5s ease, border-color 0.5s ease;
 }
 
@@ -89,7 +104,7 @@
         width: 100%;
         height: 100%;
         object-fit: cover;
-        object-position: center;
+        object-position: bottom;
     }
 
     .brand {
@@ -116,4 +131,74 @@
     padding: 8px 0;
 
 }
+
+/* ------------ Promo Banner */
+
+.promo-banner {
+    /*display: flex;*/
+    width: 100%;
+    /*height: 450px;*/
+    height: 350px;
+
+
+    /*background-image: url("/images/Optimized-Images/Audi-RS7-Car-Sales-Promo.webp");*/
+    background-image: url("/images/Optimized-Images/Promo-Electro-1.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+.gradient {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.65) 100%);
+
+    z-index: 1;
+}
+
+.wrapper-desktop {
+    position: relative;
+    z-index: 2;
+
+}
+
+
+.promo-banner > h3 {
+    z-index: 4;
+    color: white;
+}
+
+.promo-banner {
+    .wrapper-desktop {
+        .heading {
+            h3 {
+                color: var(--Color-gray-100);
+            }
+
+            h2 {
+                color: white;
+            }
+        }
+
+        .support-text {
+            color: var(--Color-gray-100);
+        }
+    }
+
+    .flex-container {
+        padding-top: 64px;
+        justify-content: center;
+    }
+}
+
+/* --------------- Services -------------- */
+.services .wrapper-desktop {
+    background-color: var(--Color-gray-25);
+}
+
 
