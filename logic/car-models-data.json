@@ -1,0 +1,71 @@
+{
+  "cars": [
+    {
+      "price": "21.000€",
+      "model": "VW Golf 5",
+      "gear": "Benzin / Manuell",
+      "power": "60.000 km",
+      "brand": "Volkswagen",
+      "imagePath": "images/Optimized-Images/VW-Golf-Front-3.webp"
+    },
+    {
+      "price": "70.000€",
+      "model": "Tesla Model X",
+      "gear": "Elektro / Automatik",
+      "power": "1.020 PS",
+      "range": "Reichweite 488km",
+      "brand": "Tesla",
+      "imagePath": "images/Optimized-Images/Tesla-Model-X-Front-1.webp"
+    },
+    {
+      "price": "69.000€",
+      "model": "Tesla Model S",
+      "gear": "Elektro / Automatik",
+      "power": "1.020PS",
+      "range": "600km Reichweite",
+      "brand": "Tesla",
+      "imagePath": "images/Optimized-Images/Tesla-Model-S-Front-2.webp"
+    },
+    {
+      "price": "92.500€",
+      "model": "Ford Explorer",
+      "gear": "Benzin / Diesel / Manuell",
+      "power": "336 kW",
+      "range": "400km",
+      "brand": "Ford",
+      "imagePath": "images/Optimized-Images/Ford-Explorer-Side-1.webp"
+    },
+    {
+      "price": "33.000€",
+      "model": "Ford Ranger",
+      "gear": "Benzin / Manuell",
+      "power": "125 kW",
+      "brand": "Ford",
+      "imagePath": "images/Optimized-Images/Ford-Ranger-Front-1.webp"
+    },
+    {
+      "price": "37.000€",
+      "model": "Dodge Challenger 2023",
+      "gear": "Benzin / Manuell",
+      "power": "170 kW",
+      "brand": "Dodge",
+      "imagePath": "images/Dodge-Images/Dodge-Challenger-Back-1.webp"
+    },
+    {
+      "price": "20.000€",
+      "model": "VW Polo",
+      "gear": "Benzin / Diesel / Manuell",
+      "power": "89 kW",
+      "brand": "Volkswagen",
+      "imagePath": "images/Optimized-Images/VW-Golf-Front-1.webp"
+    },
+    {
+      "price": "48.000€",
+      "model": "Dodge Charger",
+      "gear": "Benzin / Automatik",
+      "power": "180 kW",
+      "brand": "Dodge",
+      "imagePath": "images/Optimized-Images/Dodge-Charger-Front-1.webp"
+    }
+  ]
+}

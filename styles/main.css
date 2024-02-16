@@ -402,6 +402,9 @@
 
 
 /* ------------------ Testimonials Section ----------------- */
+.testimonials .flex-container {
+    justify-content: center;
+}
 
 /* Testimonial Card Styling */
 .testimonial-card {

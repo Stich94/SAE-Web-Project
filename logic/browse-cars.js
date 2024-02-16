@@ -100,3 +100,4 @@ function loadCars(fromPath, forContainerWithId) {
 loadCars("logic/offer-cars-data.json", 'cards-container');
 
 loadCars("logic/e-cars-data.json", "e-cars-cards-container");
+loadCars("logic/car-models-data.json", "all-models-cards-container");
