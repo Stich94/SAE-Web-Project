@@ -35,7 +35,6 @@ const vwXSIcon = `<svg width="17" height="16" viewBox="0 0 17 16" fill="none" xm
 
 function placeIcon(name) {
 
-
     switch (name.toLowerCase()) {
         case "audi":
             return audiXSIcon;
@@ -49,11 +48,8 @@ function placeIcon(name) {
         case "volkswagen":
             return vwXSIcon
     }
-
-
 }
 
-// Function to create a card for each car
 function createCarCard(car) {
 
     const imagePath = `${car.imagePath}`
@@ -64,7 +60,7 @@ function createCarCard(car) {
     const brandLogoSvg = placeIcon(car.brand);
     // console.log(brandLogoSvg)
 
-    return `<a class="sales__card" href="#">
+    return `<a class="sales__card" href="car-selling-details.html">
               <article class="card--layout">
                   <div class="car-card__text">
                       <h5 class="text-xl-sb">${car.price}</h5>
@@ -82,10 +78,9 @@ function createCarCard(car) {
             </a>`;
 }
 
-// Function to load the JSON and create cards
 function loadCars(fromPath, forContainerWithId) {
     console.log("loading cars...");
-    fetch(fromPath) // Path to your JSON file
+    fetch(fromPath)
         .then(res => res.json())
         .then(data => {
             const cardsContainer = document.getElementById(forContainerWithId);
