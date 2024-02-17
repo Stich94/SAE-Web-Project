@@ -6,13 +6,17 @@
 }
 
 
-
+/* Mobile and Tablet Share Query */
 @media only screen and (max-width: 768px) {
     /* 320px - 480px mobile devices */
 
+    .hero-container .wrapper-desktop {
+        padding: 0 20px;
+    }
+
     .wrapper-desktop {
         margin: 0 auto;
-        padding: 0 20px;
+        padding: 64px 20px;
     }
 
     /* ---------- Buttons ------------- */
@@ -31,7 +35,7 @@
     }
 
 
-    /* Navigation */
+    /* ------------- Navigation ------------- */
     .navbar {
         display: none;
 
@@ -99,6 +103,24 @@
             z-index: 200;
         }
     }
+
+    /* -----------> Available Car Brand Section  */
+    .car-brands {
+
+        .flex-container {
+            justify-content: space-around;
+            gap: 24px;
+            flex-wrap: wrap;
+
+        }
+
+        /* we have to resize the icons */
+        .brand-icon {
+            width: auto;
+            height: 24px;
+        }
+    }
+
 }
 
 
