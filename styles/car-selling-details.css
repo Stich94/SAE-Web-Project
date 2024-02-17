@@ -13,6 +13,12 @@
 }
 
 
+.hero__content  .text-content {
+    padding-bottom: 96px;
+    margin: 0;
+}
+
+
 /* ------------------- CTA Section 1 --------------- */
 .cta-container {
     background-color: var(--Color-gray-25);
@@ -156,4 +162,55 @@
     flex-direction: row;
     justify-content: space-evenly;
     gap: 32px;
+}
+
+.model-card {
+    width: 452px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--Color-gray-50);
+    border-radius: 8px;
+    transition: transform 0.5s ease, border-color 0.5s ease;
+}
+
+.model-card__details {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+
+    h4 {
+        padding-bottom: 20px;
+    }
+
+    p {
+        color: var(--Color-gray-400);
+    }
+}
+
+.model-card img {
+    width: 100%;
+
+    object-fit: cover;
+
+}
+
+/* Hover State */
+
+.model-card:hover {
+
+    border-color: var(--primary-color);
+    transform: scale(1.03);
+
+    h4 {
+        color: var(--primary-color);
+    }
+
+    .model-card__details p {
+        color: var(--primary-color);
+    }
+
+    /*.brand svg path {*/
+    /*    fill: var(--primary-color);*/
+    /*}*/
 }

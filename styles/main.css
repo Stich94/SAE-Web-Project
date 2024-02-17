@@ -35,6 +35,7 @@ body {
 .wrapper-desktop {
     /* contains content restrictions - padding  */
     max-width: 1440px;
+    margin: auto;
     padding: 96px 150px;
 }
 

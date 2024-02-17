@@ -298,11 +298,11 @@
 .display-md-sb {
     /* Display md/semibold */
     font-family: var(--urbanist-font);
-    font-size: 2.25rem; /* 36px */
+    font-size: 2.25rem;
     font-style: normal;
     font-weight: 600;
-    line-height: 44px; /* 122.222% */
-    letter-spacing: -0.72px;
+    line-height: 2.75rem; /* 122.222% */
+    letter-spacing: -0.045rem;
 }
 
 .display-md-b {

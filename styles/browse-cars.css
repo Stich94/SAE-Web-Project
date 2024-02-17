@@ -16,7 +16,12 @@
     display: flex;
     width: 100%;
     height: 100%;
+    /*padding-bottom: 96px;*/
+}
+
+.hero__content  .text-content {
     padding-bottom: 96px;
+    margin: 0;
 }
 
 .hero__content p {
@@ -198,7 +203,12 @@
 }
 
 /* --------------- Services -------------- */
+
+.services {
+    background-color: var(--Color-gray-25);
+}
 .services .wrapper-desktop {
+    width: 100%;
     background-color: var(--Color-gray-25);
 }
 
