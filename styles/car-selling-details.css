@@ -214,3 +214,42 @@
     /*    fill: var(--primary-color);*/
     /*}*/
 }
+
+
+/* ----------------- Car Specs Section --------------- */
+.car-specs {
+    padding-bottom: 96px;
+}
+
+.car-specs .flex-container {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+.specs-card {
+    width: 504px;
+    padding: 24px;
+}
+
+.specs-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 12px 0;
+    border-bottom: 1px solid var(--Color-gray-50);
+
+    p {
+        color: var(--Color-gray-900);
+    }
+
+}
+
+.specs-row p:first-of-type {
+    color: var(--Color-gray-400);
+}
+
+/* ------------------ CTA Banner Section ---------------- */
+.cta-banner {
+    background-image: url("/images/Optimized-Images/Car-Sales-1.webp");
+}
