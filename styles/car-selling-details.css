@@ -85,7 +85,6 @@
     grid-template-columns: repeat(3, 1fr);
     /*grid-template-columns: repeat(3, 1fr);*/
     grid-template-rows: 600px;
-    /*display: flex;*/
 }
 
 .grid-highlight img {
@@ -99,7 +98,6 @@
 
 
 .grid-highlight .text-container {
-    /*padding: 32px 150px 32px 32px;*/
     display: flex;
     flex-direction: column;
     gap: 32px;
@@ -115,6 +113,47 @@
     }
 }
 
-.grid-highlight .filled {
 
+
+.grid-highlight.fullscreen {
+    width: 100%;
+    height: 800px;
+    background-image: url("/images/Optimized-Images/Audi-A4-Avant-Side-1.webp");
+    background-size: cover;
+    /*background-color: var(--Color-gray-25);*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.grid-highlight.fullscreen .image-darkener-overlay  {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+
+    .text-container {
+        padding: 96px 320px;
+        align-self: center;
+        justify-content: flex-end;
+        height: 100%;
+        text-align: center;
+
+        h3 {
+            color: white;
+            align-self: center;
+        }
+
+        p {
+            color: var(--Color-gray-100);
+        }
+    }
+}
+
+/* ------------------ Available Models Section ----------------- */
+.model-card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 32px;
 }

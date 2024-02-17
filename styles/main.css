@@ -27,12 +27,10 @@
     /*font-family: var(--roboto-font);*/
 }
 
-/*html, body {*/
-/*    margin: 0;*/
-/*    display: flex;*/
-/*    justify-content: center;*/
-/*    align-items: center;*/
-/*}*/
+body {
+    max-width: 1920px;
+    margin: auto;
+}
 
 .wrapper-desktop {
     /* contains content restrictions - padding  */
@@ -277,6 +275,7 @@
 
 /* ---------------- Services In Depth ----------------- */
 .services-in-depth {
+    width: 100%;
     background-color: var(--Color-gray-25);
 
     h2 {
