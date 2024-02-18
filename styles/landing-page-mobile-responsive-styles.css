@@ -1,6 +1,7 @@
 /* To de-render the mobile class for desktop */
 @media only screen and (min-width: 769px) {
 
+
     .display-md-b {
         /* Display md/bold */
         font-family: var(--urbanist-font);
@@ -9,6 +10,12 @@
         font-weight: 700;
         line-height: 2.75rem; /* 122.222% */
         letter-spacing: -0.045rem;
+    }
+
+    .wrapper-desktop .support-text {
+        .text-md-sb {
+
+        }
     }
 
     .mobile-nav {
@@ -54,6 +61,11 @@
         padding: 8px 12px;
 
     }
+
+    .primary  {
+        padding: 8px 12px;
+    }
+
 
 
     /* ------------- Navigation ------------- */
@@ -231,13 +243,85 @@
         }
     }
 
-    /*.mobile-service-explanation-section .text-content {*/
-    /*    !* Mobile specific styles *!*/
-    /*}*/
 
+    /* ----------------> CTA Banner */
+    .cta-banner {
+        height: 812px;
 
+        .gradient {
+            height: 100%;
+        }
+
+        .wrapper-desktop {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 100%;
+            /*height: 100%;*/
+        }
+
+        .support-text {
+            padding-top: 32px;
+        }
+
+        .flex-container {
+            /*flex-direction: column;*/
+            /*flex-grow: 1;*/
+            padding-top: 0;
+            /*width: 100%;*/
+            height: 100%;
+            /*justify-content: space-between;*/
+            align-items: center;
+
+            /*.cta-button-container*/
+        }
+
+        .cta-button-container {
+            margin-top: auto; /* push button down in container */
+            width: 100%;
+            align-items: center;
+        }
+
+        .primary {
+            width: 100%;
+            text-align: center;
+        }
+    }
+
+    /* ------------> News Section */
+    .news .grid-container-news {
+        padding-top: 48px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Reverse Order for third and fourth item so order is - Large (600px) -> Small (400px) ...  */
+    .grid-container-news .news-card:nth-child(3) {
+        order: 4;
+        /*background-color: red;*/
+    }
+
+    .grid-container-news .news-card:nth-child(4) {
+        order: 3;
+    }
+
+    .news-card.large {
+        width: 100%;
+        height: 600px;
+    }
+
+    .news-card.small {
+        width: 100%;
+        height: 400px;
+    }
+
+    footer .flex-container {
+        flex-direction: column;
+    }
 }
 
+
+/* ----------------------------------------------------------- */
 
 /* ----------- Navbar Mobile Styling ----------- */
 .mobile-nav {
