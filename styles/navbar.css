@@ -54,3 +54,34 @@
     border-bottom: 1px solid var(--primary-color);
 }
 
+
+/* ----------- Navbar Mobile Styling ----------- */
+.mobile-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+
+.mobile-menu-btn {
+    display: inline-block;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.mobile-menu-button:focus {
+    outline: none;
+}
+
+.menu-bar {
+    display: block;
+    width: 25px;
+    height: 2px;
+    margin: 5px auto;
+    transition: all 0.3s ease-in-out;
+    background-color: var(--Color-gray-25);
+}
+

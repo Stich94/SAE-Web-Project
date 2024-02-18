@@ -15,16 +15,30 @@
     <link rel="stylesheet" href="styles/spacing-modules.css">
     <link rel="stylesheet" href="styles/cta-banner.css">
     <link rel="stylesheet" href="styles/browse-cars.css">
+    <link rel="stylesheet" href="styles/browse-cars-page-mobile-responsive-styles.css">
 </head>
 <body>
 <header>
-    <nav class="navbar" id="navbar">
+    <!-- // ------------------------ Mobile Nav
+     ------------------------ // -->
+    <nav class="mobile-nav" id="mobile-nav">
         <a href="index.html">
-            <img src="Icons/Company-Logo/Size=Small.svg"
-                 alt="Logo der Firma Autohaus Edelhofer">
+            <img src="/Icons/Company-Logo/Size=Small.svg" alt="Logo der Firma Autohaus Edelhofer">
+        </a>
+        <button class="mobile-menu-btn">
+            <span class="menu-bar"></span>
+            <span class="menu-bar"></span>
+            <span class="menu-bar"></span>
+        </button>
+    </nav>
+
+    <!-- // ------------------------ Desktop Nav ------------------------ // -->
+    <nav class="navbar" id="navbar">
+        <a href="#">
+            <img src="/Icons/Company-Logo/Size=Small.svg" alt="Logo der Firma Autohaus Edelhofer">
         </a>
         <ul>
-            <li><a class="link text-md-sb active-link" href="#">Fahrzeugsuche</a></li>
+            <li><a class="link text-md-sb" href="browse-cars.html">Fahrzeugsuche</a></li>
             <li><a class="link text-md-sb" href="#">Tuning</a></li>
             <li><a class="link text-md-sb" href="#">Kontakt</a></li>
         </ul>
@@ -33,6 +47,7 @@
 <main>
     <!-- // ------------------------ Hero Section ------------------------ // -->
     <section class="hero-container">
+        <div class="dark-overlay"></div>
         <div class="hero__content">
             <div class="text-content wrapper-desktop">
                 <h1 class="display-2xl-b">Neuwagen</h1>
@@ -74,7 +89,26 @@
             </div>
         </div>
     </section>
-    <!-- // ------------------------ Offers Sections ------------------------ // -->
+    <!-- // ------------------------ Mobile - Showroom Section ------------------------ // -->
+    <section class="showroom mobile">
+        <div class="wrapper-desktop">
+            <div class="grid-container">
+                <div class="showroom__text-content">
+                    <h2 class="display-md-b">Aktuelle Angebote</h2>
+                    <p class="text-xl-r">Wählen Sie ihr neues Auto zu
+                        günstigen Konditionen</p>
+                </div>
+                <div class="cars-container">
+                    <!-- // ------------------------ Item 1 ------------------------ // -->
+                    <div class="x-scroll-container" id="showroom-scroll-container">
+                        <!-- // ------------------------ dynamic content here ------------------------ // -->
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- // ------------------------ Desktop - Offers Sections ------------------------ // -->
     <section class="offers">
         <div class="wrapper-desktop">
             <div class="heading has-support-text">

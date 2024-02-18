@@ -1,0 +1,155 @@
+/* To de-render the mobile class for desktop */
+@media only screen and (min-width: 769px) {
+
+
+    .display-md-b {
+        /* Display md/bold */
+        font-family: var(--urbanist-font);
+        font-size: 2.25rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 2.75rem; /* 122.222% */
+        letter-spacing: -0.045rem;
+    }
+
+    .wrapper-desktop .support-text {
+        .text-md-sb {
+
+        }
+    }
+
+    .mobile-nav {
+        display: none;
+    }
+
+    .mobile-cta { display: none }
+}
+
+
+
+/* Mobile and Tablet Share Query */
+@media only screen and (max-width: 768px) {
+    /* 320px - 480px mobile devices */
+
+    .display-md-b {
+        /* Display sm/semibold */
+        font-family: var(--urbanist-font);
+        font-size: 1.875rem; /* 30px */
+        font-style: normal;
+        font-weight: 600;
+        line-height: 36px; /* 120% */
+        letter-spacing: -0.6px;
+    }
+
+    .hero-container .wrapper-desktop {
+        padding: 0 20px;
+    }
+
+    .wrapper-desktop {
+        margin: 0 auto;
+        padding: 64px 20px;
+    }
+
+    /* ---------- Buttons ------------- */
+
+    .cta-button-container button {
+        /* Text xl/medium */
+        font-family: var(--roboto-font);
+        font-size: 1.25rem; /* 20px */
+        font-style: normal;
+        font-weight: 500;
+        line-height: 30px; /* 150% */
+
+        width: 100%;
+        padding: 8px 12px;
+
+    }
+
+    .primary  {
+        padding: 8px 12px;
+    }
+
+
+
+    /* ------------- Navigation ------------- */
+    .navbar {
+        display: none;
+
+    }
+
+    .mobile-nav {
+        /*display: block;*/
+        z-index: 1000;
+        position: fixed;
+        top: 0;
+        /*position: absolute;*/
+        height: 80px;
+        width: 100%;
+        transition: transform 0.5s ease, background-color 0.5s ease;
+        /*background-color: transparent;*/
+    }
+
+
+    /* ------------- Hero ------------- */
+    .hero-container {
+        padding: 0 20px;
+        background-image: url("/images/Optimized-Images/Audi-RS7-Car-Front-2.webp");
+        background-position: center;
+        position: relative;
+    }
+
+    .dark-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.55);
+    }
+
+
+    .hero__content h1 {
+        /* Display md/bold */
+        font-family: var(--urbanist-font);
+        font-size: 2.25rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 2.75rem; /* 122.222% */
+        letter-spacing: -0.045rem;
+    }
+
+    .hero__content p {
+        /* Text lg/medium */
+        font-family: var(--roboto-font);
+        font-size: 1.125rem; /* 18px */
+        font-style: normal;
+        font-weight: 500;
+        line-height: 28px; /* 155.556% */
+
+        padding: 0;
+    }
+
+    .hero-container .flex-container {
+        padding: 48px 0;
+        justify-content: space-around;
+        gap: 24px;
+    }
+
+    /* ---------------> Offers Section */
+
+    /* -----------> Showroom Section */
+    .offers {
+        display: none;
+    }
+
+
+    /* Style from Showroom for Mobile */
+    .showroom .grid-container {
+        display: block;
+
+        .cars-container .x-scroll-container {
+            padding: 48px 0 0 0;
+        }
+    }
+
+}

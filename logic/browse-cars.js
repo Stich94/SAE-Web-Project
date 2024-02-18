@@ -78,21 +78,63 @@ function createCarCard(car) {
             </a>`;
 }
 
-function loadCars(fromPath, forContainerWithId) {
+function createShowroomCard(car) {
+    console.log(car);
+    const altText = `${car.brand} ${car.model}`;
+    const imagePath = `${car.imagePath}`
+
+    const brandLogoSvg = placeIcon(car.brand);
+
+    return `<a class="showroom__card" href="index.html">
+            <article class="showroom__card--layout">
+                <h5 class="text-md-sb">${car.model}</h5>
+                <img src="${imagePath}" alt="${altText}">
+                <div class="brand">
+                    ${brandLogoSvg}
+                </div>
+            </article>
+        </a>`;
+}
+
+function loadCars(fromPath, forContainerWithId, fromTemplate = "default") {
+
+    let templateCardFunc;
+
+    switch (fromTemplate.toLowerCase()) {
+        case "default":
+            templateCardFunc = createCarCard;
+            break;
+        case "showroom":
+            templateCardFunc = createShowroomCard;
+            break;
+        default:
+            // should throw error, but in here not necessary
+            templateCardFunc = createCarCard;
+            break;
+    }
+
     console.log("loading cars...");
     fetch(fromPath)
         .then(res => res.json())
         .then(data => {
             const cardsContainer = document.getElementById(forContainerWithId);
             data.cars.forEach(car => {
-                const carCardHTML = createCarCard(car);
+                const carCardHTML = templateCardFunc(car);
                 cardsContainer.innerHTML += carCardHTML;
             });
         })
         .catch(error => console.error("Error loading the JSON: ", error));
 }
 
+
+// --------------- Loading Content --------
+
 loadCars("logic/offer-cars-data.json", 'cards-container');
 
 loadCars("logic/e-cars-data.json", "e-cars-cards-container");
+
 loadCars("logic/car-models-data.json", "all-models-cards-container");
+
+
+// Showroom Cards
+loadCars("logic/offer-cars-data.json", "showroom-scroll-container", "showroom");
