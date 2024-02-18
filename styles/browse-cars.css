@@ -2,7 +2,7 @@
 .hero-container {
     height: 80vh;
 
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.70) 0%, rgba(0, 0, 0, 0.49) 100%), url("/images/Optimized-Images/Audi-RS7-Side-1.webp") no-repeat center center;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.70) 0%, rgba(0, 0, 0, 0.49) 100%), url("../images/Optimized-Images/Audi-RS7-Side-1.webp") no-repeat center center;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -148,7 +148,7 @@
 
 
     /*background-image: url("/images/Optimized-Images/Audi-RS7-Car-Sales-Promo.webp");*/
-    background-image: url("/images/Optimized-Images/Promo-Electro-1.webp");
+    background-image: url("../images/Optimized-Images/Promo-Electro-1.webp");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -245,7 +245,7 @@
     height: 450px;
 
 
-    background-image: url("/images/Optimized-Images/Car-Sales-1.webp");
+    background-image: url("../images/Optimized-Images/Car-Sales-1.webp");
 
     background-position: center;
     background-size: cover;

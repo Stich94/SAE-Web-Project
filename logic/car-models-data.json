@@ -15,7 +15,7 @@
       "power": "1.020 PS",
       "range": "Reichweite 488km",
       "brand": "Tesla",
-      "imagePath": "images/Optimized-Images/Tesla-Model-X-Front-1.webp"
+      "imagePath": "../images/Optimized-Images/Tesla-Model-X-Front-1.webp"
     },
     {
       "price": "69.000€",
@@ -24,7 +24,7 @@
       "power": "1.020PS",
       "range": "600km Reichweite",
       "brand": "Tesla",
-      "imagePath": "images/Optimized-Images/Tesla-Model-S-Front-2.webp"
+      "imagePath": "../images/Optimized-Images/Tesla-Model-S-Front-2.webp"
     },
     {
       "price": "92.500€",
@@ -33,7 +33,7 @@
       "power": "336 kW",
       "range": "400km",
       "brand": "Ford",
-      "imagePath": "images/Optimized-Images/Ford-Explorer-Side-1.webp"
+      "imagePath": "../images/Optimized-Images/Ford-Explorer-Side-1.webp"
     },
     {
       "price": "33.000€",
@@ -41,7 +41,7 @@
       "gear": "Benzin / Manuell",
       "power": "125 kW",
       "brand": "Ford",
-      "imagePath": "images/Optimized-Images/Ford-Ranger-Front-1.webp"
+      "imagePath": "../images/Optimized-Images/Ford-Ranger-Front-1.webp"
     },
     {
       "price": "37.000€",
@@ -49,7 +49,7 @@
       "gear": "Benzin / Manuell",
       "power": "170 kW",
       "brand": "Dodge",
-      "imagePath": "images/Dodge-Images/Dodge-Challenger-Back-1.webp"
+      "imagePath": "../images/Dodge-Images/Dodge-Challenger-Back-1.webp"
     },
     {
       "price": "20.000€",
@@ -57,7 +57,7 @@
       "gear": "Benzin / Diesel / Manuell",
       "power": "89 kW",
       "brand": "Volkswagen",
-      "imagePath": "images/Optimized-Images/VW-Golf-Front-1.webp"
+      "imagePath": "../images/Optimized-Images/VW-Golf-Front-1.webp"
     },
     {
       "price": "48.000€",
@@ -65,7 +65,7 @@
       "gear": "Benzin / Automatik",
       "power": "180 kW",
       "brand": "Dodge",
-      "imagePath": "images/Optimized-Images/Dodge-Charger-Front-1.webp"
+      "imagePath": "../images/Optimized-Images/Dodge-Charger-Front-1.webp"
     }
   ]
 }

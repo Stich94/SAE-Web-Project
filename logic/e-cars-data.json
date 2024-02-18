@@ -7,7 +7,7 @@
       "power": "77 - 89 kW",
       "range": "359 - 553 km",
       "brand": "Volkswagen",
-      "imagePath": "images/Optimized-Images/VW-ID-5-Electro-1.webp"
+      "imagePath": "../images/Optimized-Images/VW-ID-5-Electro-1.webp"
     },
     {
       "price": "70.000€",
@@ -16,7 +16,7 @@
       "power": "1.020 PS",
       "range": "Reichweite 488km",
       "brand": "Tesla",
-      "imagePath": "images/Optimized-Images/Tesla-Model-X-Front-1.webp"
+      "imagePath": "../images/Optimized-Images/Tesla-Model-X-Front-1.webp"
     },
     {
       "price": "69.000€",
@@ -25,7 +25,7 @@
       "power": "1.020PS",
       "range": "600km Reichweite",
       "brand": "Tesla",
-      "imagePath": "images/Optimized-Images/Tesla-Model-S-Front-2.webp"
+      "imagePath": "../images/Optimized-Images/Tesla-Model-S-Front-2.webp"
     },
     {
       "price": "92.500€",
@@ -34,7 +34,7 @@
       "power": "336 kW",
       "range": "400km",
       "brand": "Ford",
-      "imagePath": "images/Optimized-Images/Ford-Explorer-Side-1.webp"
+      "imagePath": "../images/Optimized-Images/Ford-Explorer-Side-1.webp"
     }
   ]
 }
