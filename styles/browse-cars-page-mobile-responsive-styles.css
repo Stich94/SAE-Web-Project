@@ -23,6 +23,14 @@
     }
 
     .mobile-cta { display: none }
+
+    .offers {
+        display: block;
+    }
+
+    .showroom.mobile {
+        display: none;
+    }
 }
 
 
@@ -151,5 +159,30 @@
             padding: 48px 0 0 0;
         }
     }
+
+    .promo-banner {
+        height: 600px;
+
+        .wrapper-desktop {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+        }
+    }
+
+    /* -----------> E Cars Section */
+
+
+    .sales__card {
+        width: 100%;
+        height: 400px;
+    }
+
+    footer .flex-container {
+        flex-direction: column;
+    }
+
 
 }
