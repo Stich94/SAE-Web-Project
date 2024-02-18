@@ -1,5 +1,16 @@
 /* To de-render the mobile class for desktop */
 @media only screen and (min-width: 769px) {
+
+    .display-md-b {
+        /* Display md/bold */
+        font-family: var(--urbanist-font);
+        font-size: 2.25rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 2.75rem; /* 122.222% */
+        letter-spacing: -0.045rem;
+    }
+
     .mobile-nav {
         display: none;
     }
@@ -9,6 +20,16 @@
 /* Mobile and Tablet Share Query */
 @media only screen and (max-width: 768px) {
     /* 320px - 480px mobile devices */
+
+    .display-md-b {
+        /* Display sm/semibold */
+        font-family: var(--urbanist-font);
+        font-size: 1.875rem; /* 30px */
+        font-style: normal;
+        font-weight: 600;
+        line-height: 36px; /* 120% */
+        letter-spacing: -0.6px;
+    }
 
     .hero-container .wrapper-desktop {
         padding: 0 20px;
@@ -121,6 +142,100 @@
         }
     }
 
+    /* --------------> CTA Section */
+
+    /* Disable the Desktop CTA Section */
+    .cta {
+        display: none;
+    }
+
+    /* Enable the Mobile CTA Section */
+    .mobile-cta {
+        display: block;
+
+        .flex-container {
+            padding-top: 32px;
+            gap: 32px;
+        }
+    }
+
+    .mobile-cta-card {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        padding: 24px 0;
+
+        .mobile-cta__header {
+            display: flex;
+            flex-direction: column;
+            /*justify-content: center;*/
+            align-items: center;
+            gap: 12px;
+        }
+    }
+
+    .btn-mobile {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    /* -----------> Showroom Section */
+    .showroom .grid-container {
+        display: block;
+
+        .cars-container .x-scroll-container {
+            padding: 48px 0 0 0;
+        }
+    }
+
+    /* ------------> Services Section */
+    .services-in-depth .flex-container {
+        gap: 32px;
+
+    }
+
+
+    /* --------------> Services Explanation Section */
+
+    .service-explanation-section {
+        display: none;
+    }
+
+    .mobile-service-explanation-section .flex-container {
+        /*display: block;*/
+    }
+
+    .mobile-service-explanation-section .row {
+        /*flex-direction: column;*/
+        gap: 40px;
+        height: auto;
+
+    }
+
+    .mobile-service-explanation-section .service-container {
+        /*display: block;*/
+        flex-direction: column;
+        gap: 32px;
+
+        .service-img {
+            width: 100%;
+            display: block;
+        }
+
+        .text-content {
+            padding: 0;
+        }
+    }
+
+    /*.mobile-service-explanation-section .text-content {*/
+    /*    !* Mobile specific styles *!*/
+    /*}*/
+
+
 }
 
 
@@ -154,3 +269,67 @@
     background-color: var(--Color-gray-25);
 }
 
+
+/* Mobile Service Explanation Styling */
+.mobile-service-explanation-section {
+
+    .display-md-b {
+        padding: 0 0 48px;
+    }
+
+    .flex-container {
+        /*display: block;*/
+        gap: 40px;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: row;
+        align-self: stretch;
+        height: auto;
+    }
+
+    .service-container {
+        /*width: 100%;*/
+        display: flex;
+        justify-content: center;
+        gap: 32px;
+        /*column-gap: 120px;*/
+        /*row-gap: 130px;*/
+        /*height: 256px;*/
+
+    }
+
+
+    .service-img {
+        /*width: 455px;*/
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        align-self: stretch;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 47%, rgba(0, 0, 0, 0.50) 100%), lightgray 50% / cover no-repeat;
+        border-radius: 8px;
+    }
+
+    .text-content {
+        /*width: 50%;*/
+        align-self: center;
+        text-align: left;
+        /*padding: 0 20px;*/
+
+
+        h4 {
+            color: var(--Color-gray-900);
+            padding-bottom: 16px;
+        }
+
+        p {
+            /*display: block;*/
+            padding: 0;
+            color: var(--Color-gray-400);
+        }
+        /*background-color: red;*/
+    }
+
+
+}

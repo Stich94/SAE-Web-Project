@@ -16,6 +16,13 @@ Contains styling for:
     transition: background-color .3s ease, color .3s ease, border .3s ease;
 }
 
+.btn-mobile {
+    padding: 8px 24px;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
 
 /* ----- Primary ----- */
 .primary {
@@ -47,6 +54,20 @@ Contains styling for:
     background-color: var(--secondary-color);
     color: var(--Color-gray-900);
     border: 1px solid var(--Color-gray-900);
+}
+
+.secondary-dark {
+    background-color: transparent;
+    color: var(--Color-gray-400);
+    border: 1px solid var(--Color-gray-400);
+    border-radius: 8px;
+    transition: background-color .3s ease, color .3s ease, border .3s ease;
+}
+
+.secondary-dark:hover {
+    background-color: var(--Color-gray-900);
+    color: var(--Color-gray-25);
+    border: 1px solid var(--Color-gray-25);
 }
 
 /* Showroom Card */

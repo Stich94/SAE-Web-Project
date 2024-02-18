@@ -18,4 +18,21 @@ window.addEventListener("scroll", onScroll);
 
 
 
+// ------- Mobile
+//
+// document.addEventListener("DOMContentLoaded", () => {
+//    if (window.matchMedia("(max-width: 480px").matches) {
+//        let titles = document.getElementsByClassName("display-md-b");
+//
+//        titles.forEach((e) => {
+//            console.log(e)
+//        })
+//
+//        titles.forEach( (element) => {
+//            element.className = "";
+//
+//            element.classList.add("display-sm-sb")
+//        })
+//    }
+// });
 
