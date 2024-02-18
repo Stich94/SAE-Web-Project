@@ -85,7 +85,7 @@ function createShowroomCard(car) {
 
     const brandLogoSvg = placeIcon(car.brand);
 
-    return `<a class="showroom__card" href="index.html">
+    return `<a class="showroom__card" href="car-selling-details.html">
             <article class="showroom__card--layout">
                 <h5 class="text-md-sb">${car.model}</h5>
                 <img src="${imagePath}" alt="${altText}">

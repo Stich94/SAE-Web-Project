@@ -24,21 +24,20 @@
 
     .mobile-cta { display: none }
 
-    .offers {
-        display: block;
-    }
-
-    .showroom.mobile {
+    .mobile-service-explanation-section {
         display: none;
     }
-}
 
+    .model-card-container {
+        padding-top: 48px;
+    }
+
+}
 
 
 /* Mobile and Tablet Share Query */
 @media only screen and (max-width: 768px) {
     /* 320px - 480px mobile devices */
-
     .display-md-b {
         /* Display sm/semibold */
         font-family: var(--urbanist-font);
@@ -59,7 +58,6 @@
     }
 
     /* ---------- Buttons ------------- */
-
     .cta-button-container button {
         /* Text xl/medium */
         font-family: var(--roboto-font);
@@ -73,10 +71,9 @@
 
     }
 
-    .primary  {
+    .primary {
         padding: 8px 12px;
     }
-
 
 
     /* ------------- Navigation ------------- */
@@ -97,12 +94,12 @@
         /*background-color: transparent;*/
     }
 
-
     /* ------------- Hero ------------- */
     .hero-container {
         padding: 0 20px;
-        background-image: url("/images/Optimized-Images/Audi-RS7-Car-Front-2.webp");
+        background-image: url("/images/Optimized-Images/Audi-A4-Avant-Front.webp");
         background-position: center;
+        background-size: cover;
         position: relative;
     }
 
@@ -112,7 +109,8 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background-color: rgba(0, 0, 0, 0.55);
+        background-color: rgba(0, 0, 0, 0.2);
+
     }
 
 
@@ -134,60 +132,97 @@
         font-weight: 500;
         line-height: 28px; /* 155.556% */
 
-        padding: 0;
+        padding: 0 0 64px 0;
     }
 
-    .hero-container .flex-container {
-        padding: 48px 0;
-        justify-content: space-around;
-        gap: 24px;
-    }
-
-    /* ---------------> Offers Section */
-
-    /* -----------> Showroom Section */
-    .offers {
-        display: none;
-    }
-
-    .showroom.mobile {
-        .showroom__text-content {
-            text-align: center;
-        }
-    }
-
-    /* Style from Showroom for Mobile */
-    .showroom .grid-container {
-        display: block;
-
-        .cars-container .x-scroll-container {
-            padding: 48px 0 0 0;
-        }
-    }
-
-    .promo-banner {
-        height: 600px;
-
-        .wrapper-desktop {
-            height: 100%;
+    .hero-container {
+        .cta-button-container {
+            /*padding-top: 32px;*/
+            padding: 32px 0 64px 0;
+            width: 100%;
             display: flex;
             flex-direction: column;
-            justify-content: center;
-
+            gap: 12px;
+            z-index: 200;
         }
     }
 
-    /* -----------> E Cars Section */
-
-
-    .sales__card {
+    .cta-container .flex-container {
         width: 100%;
-        height: 400px;
+        justify-content: center;
+
+        .cta-card {
+            width: 100%;
+            justify-content: center;
+
+            .container {
+                width: 100%;
+            }
+        }
     }
 
+
+    /* --------------> Highlights */
+    .highlight .flex-container {
+        gap: 64px;
+    }
+
+    .highlight .grid-highlight {
+        /*column-span: 1;*/
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+
+        img {
+            height: 400px;
+        }
+
+    }
+
+    .grid-highlight .text-container {
+        padding: 0 20px;
+    }
+
+    /* Fullscreen Highlight Adjustments */
+    .grid-highlight.fullscreen {
+        width: 100%;
+        height: 800px;
+        background-position: center;
+
+        .image-darkener-overlay .text-container {
+            padding: 64px 20px;
+            justify-content: flex-end;
+        }
+    }
+
+    /* -------------> Available Models Section */
+    .available-models .model-card-container {
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 48px;
+
+        .model-card {
+            width: 100%;
+        }
+    }
+
+    /* -------------> CTA Banner */
+    .cta-banner {
+        height: 800px;
+        justify-content: center;
+
+        .wrapper-desktop {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            justify-content: center;
+        }
+
+    }
+
+
+    /* --------------> Footer */
     footer .flex-container {
         flex-direction: column;
     }
-
-
 }

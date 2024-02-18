@@ -23,6 +23,11 @@
     }
 
     .mobile-cta { display: none }
+
+    .mobile-service-explanation-section {
+        display: none;
+    }
+
 }
 
 
@@ -198,6 +203,11 @@
     }
 
     /* -----------> Showroom Section */
+
+    .showroom .showroom__text-content {
+        text-align: center;
+    }
+
     .showroom .grid-container {
         display: block;
 
