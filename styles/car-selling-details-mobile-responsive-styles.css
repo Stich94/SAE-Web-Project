@@ -97,7 +97,7 @@
     /* ------------- Hero ------------- */
     .hero-container {
         padding: 0 20px;
-        background-image: url("images/Optimized-Images/Audi-A4-Avant-Front.webp");
+        background-image: url("../images/Optimized-Images/Audi-A4-Avant-Front.webp");
         background-position: center;
         background-size: cover;
         position: relative;

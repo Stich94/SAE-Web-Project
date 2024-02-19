@@ -101,7 +101,7 @@
     /* ------------- Hero ------------- */
     .hero-container {
         padding: 0 20px;
-        background-image: url("images/Optimized-Images/Audi-RS7-Car-Front-2.webp");
+        background-image: url("../images/Optimized-Images/Audi-RS7-Car-Front-2.webp");
         background-position: center;
         position: relative;
     }
