@@ -24,8 +24,10 @@
 
     .mobile-cta { display: none }
 
+    /* required resetting image */
     .hero-container {
         background: var(--hero-img-gradient), url("../images/Optimized-Images/Audi-A4-Avant-Front.webp") no-repeat center center;
+        background-size: cover;
     }
 
     .mobile-service-explanation-section {
