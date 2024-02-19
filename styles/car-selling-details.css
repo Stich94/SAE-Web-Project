@@ -124,7 +124,7 @@
 .grid-highlight.fullscreen {
     width: 100%;
     height: 800px;
-    background-image: url("/images/Optimized-Images/Audi-A4-Avant-Side-1.webp");
+    background-image: url("images/Optimized-Images/Audi-A4-Avant-Side-1.webp");
     background-size: cover;
     /*background-color: var(--Color-gray-25);*/
     display: flex;
@@ -251,5 +251,5 @@
 
 /* ------------------ CTA Banner Section ---------------- */
 .cta-banner {
-    background-image: url("/images/Optimized-Images/Car-Sales-1.webp");
+    background-image: url("images/Optimized-Images/Car-Sales-1.webp");
 }
